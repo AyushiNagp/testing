@@ -1,0 +1,13 @@
+Tests\NAGPAllTests.class
+RequestModels\AddUserRequest.class
+ModelClasses\GetListOfQuotesModel.class
+RequestModels\User.class
+ModelClasses\GetActivities.class
+ModelClasses\Activity.class
+ModelClasses\UserDetails.class
+ModelClasses\AccountDetails.class
+ModelClasses\GetUsersModel.class
+Utils\Utilities.class
+ErrorModels\Errormodels.class
+ModelClasses\AddUserModel.class
+ModelClasses\Quote.class

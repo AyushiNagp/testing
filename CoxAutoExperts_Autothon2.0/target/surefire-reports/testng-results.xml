@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="10438" started-at="2023-03-07T15:13:55 IST" finished-at="2023-03-07T15:14:05 IST">
+    <groups>
+      <group name="UnFollowActivityTest">
+        <method signature="NAGPAllTests.UnFollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="UnFollowActivity" class="Tests.NAGPAllTests"/>
+      </group> <!-- UnFollowActivityTest -->
+      <group name="AddUserNegativeTest">
+        <method signature="NAGPAllTests.AddUserInvalidEmail(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="AddUserInvalidEmail" class="Tests.NAGPAllTests"/>
+      </group> <!-- AddUserNegativeTest -->
+      <group name="GetUsersTest">
+        <method signature="NAGPAllTests.GetUser(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="GetUser" class="Tests.NAGPAllTests"/>
+      </group> <!-- GetUsersTest -->
+      <group name="FollowActivityTest">
+        <method signature="NAGPAllTests.FollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="FollowActivity" class="Tests.NAGPAllTests"/>
+      </group> <!-- FollowActivityTest -->
+      <group name="DeleteActivityTest">
+        <method signature="NAGPAllTests.DeleteActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="DeleteActivity" class="Tests.NAGPAllTests"/>
+      </group> <!-- DeleteActivityTest -->
+      <group name="GetActivityTest">
+        <method signature="NAGPAllTests.GetActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="GetActivity" class="Tests.NAGPAllTests"/>
+      </group> <!-- GetActivityTest -->
+    </groups>
+    <test name="TestSuite" duration-ms="10438" started-at="2023-03-07T15:13:55 IST" finished-at="2023-03-07T15:14:05 IST">
+      <class name="Tests.NAGPAllTests">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="BeforeTest" is-config="true" duration-ms="519" started-at="2023-03-07T15:13:55 IST" finished-at="2023-03-07T15:13:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="AddUser(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="AddUser" duration-ms="2347" started-at="2023-03-07T15:13:55 IST" finished-at="2023-03-07T15:13:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.AddUser(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method status="PASS" signature="AddUserInvalidEmail(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="AddUserInvalidEmail" duration-ms="1279" started-at="2023-03-07T15:13:57 IST" description="Test for invalid email for add user api" finished-at="2023-03-07T15:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.AddUserInvalidEmail(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUserInvalidEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:13:57 IST" finished-at="2023-03-07T15:13:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddUser status=SUCCESS method=NAGPAllTests.AddUser(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="GetUser(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="GetUser" duration-ms="782" started-at="2023-03-07T15:13:59 IST" finished-at="2023-03-07T15:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.GetUser(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:13:59 IST" finished-at="2023-03-07T15:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddUserInvalidEmail status=SUCCESS method=NAGPAllTests.AddUserInvalidEmail(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:13:59 IST" finished-at="2023-03-07T15:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetUser status=SUCCESS method=NAGPAllTests.GetUser(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="FollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="FollowActivity" duration-ms="1944" started-at="2023-03-07T15:13:59 IST" depends-on-methods="Tests.NAGPAllTests.AddUser" finished-at="2023-03-07T15:14:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.FollowActivity(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FollowActivity -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:14:01 IST" finished-at="2023-03-07T15:14:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FollowActivity status=SUCCESS method=NAGPAllTests.FollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="GetActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="GetActivity" duration-ms="1152" started-at="2023-03-07T15:14:01 IST" depends-on-methods="Tests.NAGPAllTests.FollowActivity" finished-at="2023-03-07T15:14:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.GetActivity(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetActivity -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:14:03 IST" finished-at="2023-03-07T15:14:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetActivity status=SUCCESS method=NAGPAllTests.GetActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="UnFollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="UnFollowActivity" duration-ms="909" started-at="2023-03-07T15:14:03 IST" depends-on-methods="Tests.NAGPAllTests.FollowActivity" finished-at="2023-03-07T15:14:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.UnFollowActivity(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnFollowActivity -->
+        <test-method status="PASS" signature="DeleteActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="DeleteActivity" duration-ms="937" started-at="2023-03-07T15:14:03 IST" depends-on-methods="Tests.NAGPAllTests.GetActivity" finished-at="2023-03-07T15:14:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.NAGPAllTests.DeleteActivity(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteActivity -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:14:03 IST" finished-at="2023-03-07T15:14:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UnFollowActivity status=SUCCESS method=NAGPAllTests.UnFollowActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="getResult" is-config="true" duration-ms="0" started-at="2023-03-07T15:14:04 IST" finished-at="2023-03-07T15:14:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteActivity status=SUCCESS method=NAGPAllTests.DeleteActivity(java.lang.reflect.Method)[pri:0, instance:Tests.NAGPAllTests@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Tests.NAGPAllTests@60c6f5b]" name="endReport" is-config="true" duration-ms="522" started-at="2023-03-07T15:14:04 IST" finished-at="2023-03-07T15:14:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.NAGPAllTests -->
+    </test> <!-- TestSuite -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
